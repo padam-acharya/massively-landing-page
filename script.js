@@ -7,7 +7,7 @@ const midBarEl = document.querySelector(".mid-bar")
 const bottomBarEl = document.querySelector(".bottom-bar")
 
 
-hamburgerEl.addEventListener("click",()=>{
+hamburgerEl.addEventListener("click", () => {
     sidebarEl.classList.toggle("show")
     topBarEl.classList.toggle("top-rotate")
     midBarEl.classList.toggle("mid-rotate")
